@@ -249,3 +249,16 @@ line-height: 24px;
 .text__url {
     margin-top: 5px;
 }
+
+.personalInformation {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.personalInformation p {
+color: white;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+margin: 0;
+}
