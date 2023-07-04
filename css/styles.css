@@ -29,14 +29,14 @@ padding: 100px 88px;
 font-style: normal;
 font-weight: 700;
 font-size: 45px;
-line-height: 55px;9
+line-height: 55px;
 margin-top: 20px;
 margin-bottom: 25px;
 text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
 }
 
 .texto-descripcion {
-width: 400px;
+width: 100%;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -147,8 +147,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 20px;
 color: #FB6D3A;
-margin-top: 12px;
-margin-bottom: 12px;
+margin-top: 30px;
 }
 
 .titulo-estudio {
@@ -216,4 +215,37 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
+}
+
+.svg__Tag {
+    fill: #F5F7FA;
+}
+
+.sgv__link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container__svg {
+    margin-top: 50px;
+}
+
+.lista-lateral-svg {
+    list-style: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     text-align: center;
+     padding-left: 0;
+}
+.text__url {
+    margin-top: 5px;
 }
